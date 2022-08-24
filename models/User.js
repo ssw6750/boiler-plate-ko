@@ -79,7 +79,7 @@ userSchema.methods.generateToken = function(cb) {
   })
 }
 
-userSchema.statics.findBytoken = function(token, cb){
+userSchema.statics.findByToken = function(token, cb){
   var user = this;
 
   // 토큰 decode
